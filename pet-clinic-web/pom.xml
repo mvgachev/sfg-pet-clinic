@@ -44,6 +44,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
         <!-- webjars -->
         <dependency>
             <groupId>org.webjars</groupId>
@@ -58,11 +63,6 @@
             <groupId>org.webjars.npm</groupId>
             <artifactId>font-awesome</artifactId>
             <version>${webjars-font-awesome.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
         </dependency>
         <!-- end of webjars -->
     </dependencies>
